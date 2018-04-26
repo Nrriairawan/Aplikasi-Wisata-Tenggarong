@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.manajemeninformatika.pariwisata1.waduk">
+    <ImageView
+        android:id="@+id/formback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bec" />
+    <Button
+        android:id="@+id/btn_wisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_peta"
+        android:layout_alignBottom="@+id/btn_peta"
+        android:layout_toEndOf="@+id/btn_peta"
+        android:text="EXIT"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_wisata"
+        android:scaleType="fitCenter"
+        android:src="@drawable/uu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="Waduk Panji Suka Rame sebelumnya berfungsi sebagai irigasi/ pengairan untuk persawahan, namun saat ini juga menjadi objek wisata dengan fasilitas berupa wahana permainan sepeda air, waterball, flying fox, dan lain-lain. Diarea waduk ada cafe atau warung untuk tempat makan dan minum serta panggung untuk tempat pertunjukan musik. Kawasan waduk panji sukarame juga menyuguhkan suasana hutan yang sejuk dan asri, serta terdapat taman anggrek dan sebuah kapal pemberian ratu yuliana.
+Kawasan ini sedang dipersiapkan pembangunan taman Replika Kerajaan Nusantara dan Monumen Internasional serta pusat kebudayaan Kutai.
+"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

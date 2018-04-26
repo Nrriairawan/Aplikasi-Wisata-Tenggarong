@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manajemeninformatika.pariwisata1.ladayah">
+
+    <ImageView
+        android:id="@+id/formback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bec" />
+    <Button
+        android:id="@+id/btn_wisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_peta"
+        android:layout_alignBottom="@+id/btn_peta"
+        android:layout_toEndOf="@+id/btn_peta"
+        android:text="EXIT"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_wisata"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jj" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="Ladang budaya atau ladaya mempunyai nama asli ladang budaya lanjong merupakan nama asli dari tempat wisata ini lanjong merupakan wadah atau tempat dari anyaman rotan yang digunakan masyarkat asli kutai atau dayak untuk mengangkat hasil landang atau hasil pertanian. Ladang budaya didirikan pada tahun 2015 bertepatan dengan upacara adat erau yang diselenggarakan oleh keraton kutai kartanegara yang berkerjasama dengan dinas pariwisata tenggarong.
+Ladang budaya dikelolah oleh yayasan lanjong kutai kartanegara yang didirikan tahun 2002. Objek wisata ini juga lengkapi dengan sarana rekreasi seperti paint ball, outbond, mini zoo, dan juga rumah odah rehat rumah untuk istirahat atau penginapana.  Biaya masuk untuk objek wisata ini sepuluh ribu rupiah. Objek wisata ini terletak dijalan Jl. H. Bachrin Seman RT. 12, Mangkurawang, Tenggarong, Mangkurawang, Tenggarong sekitar 2 kilo meter dari pusat kota tenggarong.
+"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+</RelativeLayout>

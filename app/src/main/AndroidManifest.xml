@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".halaman_utama" />
-        <activity android:name=".kategori"></activity>
+        <activity android:name=".kategori" />
+        <activity android:name=".waduk" />
+        <activity android:name=".ladayah" />
+        <activity android:name=".kumala"></activity>
     </application>
 
 </manifest>
