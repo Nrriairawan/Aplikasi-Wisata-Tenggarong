@@ -84,13 +84,21 @@
 
 
     <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_below="@+id/formlogo"
+<<<<<<< HEAD
         android:layout_toEndOf="@+id/textView3"
         android:scaleType="fitCenter"
         android:src="@drawable/lo"
         android:id="@+id/imageView2" />
+=======
+        android:layout_marginStart="22dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/k" />
+
+>>>>>>> 74c0df64442c48330053f643cccb9a2650ea7789
 
     <ImageView
         android:id="@+id/imageView5"
@@ -100,7 +108,40 @@
         android:layout_below="@+id/formlogo"
         android:layout_marginStart="25dp"
         android:scaleType="fitCenter"
+<<<<<<< HEAD
         android:src="@drawable/k" />
+=======
+        android:src="@drawable/lo"
+        android:id="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jktpt" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jkt" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jktp" />
+>>>>>>> 74c0df64442c48330053f643cccb9a2650ea7789
 
 
 </RelativeLayout>
