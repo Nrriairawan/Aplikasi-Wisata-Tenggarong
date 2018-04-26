@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.manajemeninformatika.pariwisata1.halaman_utama">
+
+    <ImageView
+        android:id="@+id/formback"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/orang" />
+    <ImageView
+        android:id="@+id/formlogo"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/warna" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="435dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="serif"
+        android:scaleType="center"
+        android:text="Sejarah Singkat Kukar "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="sans-serif"
+        android:text=" Kerajaan kutai adalah kerajaan tertua di Indonesia. Kerajaan ini terletak ditepi sungai Mahakam di Muarakaman, Kalimantan Timur, dekat kota Tenggarong. Diperkirakan Kerajaan Kutai berdiri pada abad 4 M prasasti tersebut didirikan oleh Raja Mulawarman. Bukti sejarah tentang kerajaan Kutai adalah ditemukannya tujuh prasasti yang berbentuk yupa (tiang batu) tulisan yupa itu menggunakan huruf pallawa dan bahasa sansekerta.
+Adapun isi prasati tersebut menyatakan bahwa raja pertama Kerajaan Kutai bernama Kudungga. Ia mempunyai seorang putra bernama Asawarman yang disebut sebagai wamsakerta (pembentuk keluarga). Setelah meninggal, Asawarman digantikan oleh Mulawarman. Penggunaan nama Asawarman dan nama-nama raja pada generasi berikutnya menunjukkan telah masuknya pengaruh ajaran Hindu dalam kerajaan Kutai dan hal tersebut membuktikan bahwa raja-raja Kutai adalah orang Indonesia asli yang telah memeluk agama Hindu.
+Letak geografis Kerajaan Kutai yang berada menjorok ke daerah pedalaman, menyebabkan Kutai menjadi tempat yang menarik sebagai persinggahan bagi para pedagang dari Cina dan India. Hal inilah yang menyebabkan pengaruh Hindu masuk ke Kutai, serta membuat kegiatan perdagangan menjadi bagian dari kehidupan masyarakat Kutai
+"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_wisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_peta"
+        android:layout_alignBottom="@+id/btn_peta"
+        android:layout_toEndOf="@+id/btn_peta"
+        android:text="WISATA"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_peta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:fontFamily="serif"
+        android:text="PETA"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_sejarah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_wisata"
+        android:layout_alignBottom="@+id/btn_wisata"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="serif"
+        android:text="SEJARAH "
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp" />
+</RelativeLayout>
