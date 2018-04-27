@@ -11,7 +11,7 @@
         android:id="@+id/formback"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
         android:src="@drawable/bec" />
@@ -30,23 +30,74 @@
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/textView2"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="34dp"
-        app:srcCompat="@drawable/jktpt" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:fontFamily="sans-serif"
+        android:layout_marginBottom="286dp"
+        app:srcCompat="@drawable/jktpt" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_wisata"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView24"
+        android:layout_alignTop="@+id/textView22"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView25"
+        android:layout_below="@+id/imageView25"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView24"
+        android:layout_toEndOf="@+id/btn_wisata"
+        android:text="Jl. Museum Kayu, Panji, Tenggarong, Kabupaten Kutai Kartanegara, Kalimantan Timur 75513"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="13dp"
+        android:text="08.00–17.00"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView22"
+        android:layout_below="@+id/imageView25"
+        android:text="Tidak ada nomor telephone"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView26"
         android:text="Museum Kayu Tuah Himba terletak tidak jauh dari Kawasan Waduk Panji Sukarame, Kutai Kartanegara, Kalimantan Timur yaitu berjarak sekitar 600 meter dari Waduk. Di dalam Museum Kayu ini terdapat beragam jenis kayu-kayu yang ada di Pulau Kalimantan."
-        android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textSize="18sp" />
 
 
 </RelativeLayout>

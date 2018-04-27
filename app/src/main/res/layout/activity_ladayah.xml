@@ -10,8 +10,8 @@
         android:id="@+id/formback"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
         android:src="@drawable/bec" />
 
@@ -34,18 +34,69 @@
         android:scaleType="fitCenter"
         android:src="@drawable/jj" />
 
-    <TextView
-        android:id="@+id/textView4"
+    <ImageView
+        android:id="@+id/imageView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:text="Ladaya alias ladang budaya adalah salah satu destinasi wisata alam yang terletak di Tenggarong Kabupaten Kutai Kertanegara. Objek wisata ini dilengkapi dengan berbagai wahana menarik, seperti mini zoo; outbond; paint ball dan juga rumah odah rehat untuk menginap"
-        android:textAlignment="center"
+        android:layout_alignEnd="@+id/btn_wisata"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="14dp"
+        app:srcCompat="@android:drawable/ic_dialog_map" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView19"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView20"
+        android:layout_below="@+id/imageView20"
+        app:srcCompat="@android:drawable/ic_menu_call" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView19"
+        android:layout_toEndOf="@+id/imageView19"
+        android:text="Jl. H. Bachrin Seman, RT.12, Mangkurawang, Tenggarong, Mangkurawang, Tenggarong, Kabupaten Kutai Kartanegara, Kalimantan Timur 75513"
         android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView20"
+        android:layout_toEndOf="@+id/imageView19"
+        android:text="09.00 - 18.00"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_below="@+id/imageView20"
+        android:text="0812-5547-3357"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView23"
+        android:text="Ladaya alias ladang budaya adalah salah satu destinasi wisata alam yang terletak di Tenggarong Kabupaten Kutai Kertanegara. Objek wisata ini dilengkapi dengan berbagai wahana menarik, seperti mini zoo; outbond; paint ball dan juga rumah odah rehat untuk menginap"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
 
 
 </RelativeLayout>
