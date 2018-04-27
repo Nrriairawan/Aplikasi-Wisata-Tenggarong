@@ -80,10 +80,10 @@
         android:layout_marginEnd="36dp"
         android:scaleType="fitCenter"
         android:src="@drawable/j"
-        android:id="@+id/imageView" />
+        android:id="@+id/imageViewmulawarman" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageViewplanetarium"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_below="@+id/formlogo"
@@ -93,7 +93,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageViewpulaukumala"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_alignParentStart="true"
@@ -103,29 +103,29 @@
         android:src="@drawable/k" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewmuseumkayu"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignEnd="@+id/imageView"
-        android:layout_below="@+id/imageView"
+        android:layout_alignEnd="@+id/imageViewmulawarman"
+        android:layout_below="@+id/imageViewmulawarman"
         android:layout_marginTop="32dp"
         android:scaleType="fitCenter"
         android:src="@drawable/jktpt" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageViewwaduk"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignStart="@+id/imageView5"
-        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignStart="@+id/imageViewpulaukumala"
+        android:layout_alignTop="@+id/imageViewmuseumkayu"
         android:scaleType="fitCenter"
         android:src="@drawable/jkt" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageViewladaya"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignTop="@+id/imageView3"
+        android:layout_alignTop="@+id/imageViewwaduk"
         android:layout_toEndOf="@+id/textView3"
         android:scaleType="fitCenter"
         android:src="@drawable/jktp" />

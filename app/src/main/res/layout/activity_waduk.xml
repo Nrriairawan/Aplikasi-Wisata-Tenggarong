@@ -27,7 +27,7 @@
         android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageViewmulawarman"
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:layout_alignParentStart="true"
@@ -40,7 +40,7 @@
         android:layout_width="30dp"
         android:layout_height="50dp"
         android:layout_alignEnd="@+id/btn_wisata"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/imageViewmulawarman"
         android:layout_marginEnd="19dp"
         android:layout_marginTop="15dp"
         app:srcCompat="@android:drawable/ic_dialog_map" />
@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="250dp"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/imageViewmulawarman"
         android:layout_marginTop="139dp"
         android:fontFamily="sans-serif"
         android:text="Waduk Panji Sukarame adalah waduk yang juga dijadikan tempat rekreasi yang terletak di Kelurahan Panji Sukarame, Tenggarong, Kutai Kartanegara dan merupakan taman rekreasi yang sangat bagus untuk dinikmati dengan adanya pemandangan alam dan air waduk yang tenang."
