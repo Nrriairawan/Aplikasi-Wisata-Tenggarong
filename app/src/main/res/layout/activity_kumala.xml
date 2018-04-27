@@ -32,7 +32,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btn_wisata"
         android:scaleType="fitCenter"
-        android:src="@drawable/ll" />
+        android:src="@drawable/ss" />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -95,9 +95,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView22"
-        android:text="Pulau Kumala merupakan daerah delta di Sungai Mahakam yang memanjang di sebelah Barat Kota Tenggarong, Kabupaten Kutai Kartanegara. Dimulai pada tahun 2000, Pulau Kumala dibangun menjadi kawasan wisata. Taman Wisata Pulau Kumala berjarak sekitar 27 km dari Kota Samarinda"
+        android:text="Pulau kumala terletak ditengah sungai Mahakam yang merupakan daerah delta Mahakam yang memanjang disebelah barat Kota Tenggarong. Dengan luas 76 ha, pulau ini didesain menjadi taman wisata rekreasi yang ditata rapi dengan perpaduan arsitektur berteknologi modern dan budaya tradisional. Terdapat patung besar Lembuswana dibagian ujung pulau, yang menjadi icon pulau ini dan mudah terlihat dari pinggir Sungai Mahakam.
+Pulau Kumala menyediakan fasilitas rekreasi yang dapat menarik pengunjung. Dipulau ini dapat dinikmati tempat rekreasi keluarga maupun wahana permainan untuk keluarga dan anak-anak, seperti cabele car, trampolin,  merry grounds, go karts, cottage berikut kolam renang, danau dan taman naga. Juga terdapat dua buah rumah adat lamin panjang dan pura pasak pulau yang menandai titik tengah pulau. Terdapat angkutan wisata untuk mengelilingi pulau kumala ini. Pengunjung juga dapat bersepeda santai mengitari pulau ini.  Untuk menyeberangi pulau ini dapat menggunakan jembatan yang baru saja selesai dibangun pada tahun 2016 dan dapat juga menggunakan penyebrangan angkutan air berupa longboat.  Tiket masuk untuk pulau kumala sebesar tujuh ribu rupiah. Pulau kumala ini dikelola oleh dinas kebudayaan dan pariwisata kabupaten tenggarong.
+"
+        android:textAlignment="textStart"
         android:textColor="@android:color/background_dark"
-        android:textSize="15sp" />
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

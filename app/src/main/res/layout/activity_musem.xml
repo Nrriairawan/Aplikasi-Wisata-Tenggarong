@@ -29,9 +29,10 @@
         android:id="@+id/imageView4"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:layout_below="@+id/btn_wisata"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/j" />
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/ll" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -66,7 +67,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:text="Museum Mulawarman adalah istana dari Kesultanan Kutai Kartanegara dibangun pada tahun 1963 sebagai pengganti Istana sebelumnya yang terbakar dan diresmikan pada tanggal 25 November 1971 oleh Gubernur Abdoel Wahab Sjahranie"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
         android:textColor="@android:color/background_dark"
         android:textSize="18sp"
         android:textStyle="bold" />
