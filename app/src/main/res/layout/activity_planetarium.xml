@@ -4,23 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.manajemeninformatika.pariwisata1.ladayah">
 
+    tools:context="com.example.manajemeninformatika.pariwisata1.waduk">
     <ImageView
         android:id="@+id/formback"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
         android:src="@drawable/bec" />
-
     <Button
         android:id="@+id/btn_wisata"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+        android:layout_alignBaseline="@+id/btn_peta"
+        android:layout_alignBottom="@+id/btn_peta"
+        android:layout_toEndOf="@+id/btn_peta"
         android:text="EXIT"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="20sp" />
@@ -32,19 +32,20 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/btn_wisata"
         android:scaleType="fitCenter"
-        android:src="@drawable/jj" />
+        android:src="@drawable/lo" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:text="Ladaya alias ladang budaya adalah salah satu destinasi wisata alam yang terletak di Tenggarong Kabupaten Kutai Kertanegara. Objek wisata ini dilengkapi dengan berbagai wahana menarik, seperti mini zoo; outbond; paint ball dan juga rumah odah rehat untuk menginap"
+        android:layout_marginTop="14dp"
+        android:fontFamily="sans-serif"
+        android:text="Planetarium Jagad Raya Tenggarong merupakan sebuah planetarium yang terletak di Jalan Diponegoro, Tenggarong, Kutai Kartanegara, Kalimantan Timur. Planetarium berkapasitas 92 tempat duduk ini dibangun pada tahun 2000 dan resmi dibuka pada tahun 2002. Planetarium Jagad Raya merupakan planetarium ketiga di Indonesia setelah Planetarium Jakarta dan Planetarium Surabaya, Jawa Timur"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
 

@@ -26,22 +26,21 @@
         android:textSize="20sp" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_alignParentStart="true"
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:layout_below="@+id/btn_wisata"
-        android:scaleType="fitCenter"
-        android:src="@drawable/jj" />
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/j" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:text="Ladaya alias ladang budaya adalah salah satu destinasi wisata alam yang terletak di Tenggarong Kabupaten Kutai Kertanegara. Objek wisata ini dilengkapi dengan berbagai wahana menarik, seperti mini zoo; outbond; paint ball dan juga rumah odah rehat untuk menginap"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView4"
+        android:layout_marginTop="14dp"
+        android:text="Museum Mulawarman adalah istana dari Kesultanan Kutai Kartanegara dibangun pada tahun 1963 sebagai pengganti Istana sebelumnya yang terbakar dan diresmikan pada tanggal 25 November 1971 oleh Gubernur Abdoel Wahab Sjahranie"
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
         android:textSize="24sp"
