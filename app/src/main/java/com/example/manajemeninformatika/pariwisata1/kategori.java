@@ -7,6 +7,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class kategori extends AppCompatActivity {
@@ -24,6 +25,7 @@ public class kategori extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kategori);
+        ButterKnife.bind(this);
     }
 
     @OnClick(R.id.imageViewmulawarman)
