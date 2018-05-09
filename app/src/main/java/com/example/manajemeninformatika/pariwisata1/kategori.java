@@ -31,37 +31,37 @@ public class kategori extends AppCompatActivity {
     }
 
     @OnClick(R.id.imageViewmulawarman)
-    public void setImageViewmulawarman() {
+    public void ImageViewmulawarman() {
         Intent intent = new Intent(kategori.this, mulawarman.class);
         startActivity(intent);
     }
 
     @OnClick(R.id.imageViewplanetarium)
-    public void setImageViewplanetarium() {
+    public void ImageViewplanetarium() {
         Intent intent = new Intent(kategori.this, planetarium.class);
         startActivity(intent);
     }
 
     @OnClick(R.id.imageViewpulaukumala)
-    public void setImageViewpulaukumala() {
+    public void ImageViewpulaukumala() {
         Intent intent = new Intent(kategori.this, kumala.class);
         startActivity(intent);
     }
 
     @OnClick(R.id.imageViewmuseumkayu)
-    public void setImageViewmuseumkayu() {
+    public void ImageViewmuseumkayu() {
         Intent intent = new Intent(kategori.this, museumkayu.class);
         startActivity(intent);
     }
 
     @OnClick(R.id.imageViewwaduk)
-    public void setImageViewwaduk() {
+    public void ImageViewwaduk() {
         Intent intent = new Intent(kategori.this, waduk.class);
         startActivity(intent);
     }
 
     @OnClick(R.id.imageViewladaya)
-    public void setImageViewladaya() {
+    public void ImageViewladaya() {
         Intent intent = new Intent(kategori.this, ladayah.class);
         startActivity(intent);
     }

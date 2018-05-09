@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Wisata Tenggarong"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -20,6 +20,10 @@
         <activity android:name=".kategori" />
         <activity android:name=".waduk" />
         <activity android:name=".ladayah" />
+        <activity android:name=".mulawarman" />
+        <activity android:name=".planetarium" />
+        <activity android:name=".museumkayu" />
+
         <activity android:name=".kumala"></activity>
     </application>
 
