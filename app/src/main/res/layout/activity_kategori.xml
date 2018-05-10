@@ -75,21 +75,33 @@
         android:textStyle="bold" />
 
     <ImageView
+        android:id="@+id/imageViewmulawarman"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_alignEnd="@+id/btn_wisata"
         android:layout_below="@+id/formlogo"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="47dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/j"
-        android:id="@+id/imageViewmulawarman" />
+        android:src="@drawable/j" />
+
+    <ImageView
+        android:id="@+id/imageViewmuseumkayu"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/imageViewmulawarman"
+        android:layout_below="@+id/imageViewmulawarman"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="26dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/jktpt" />
 
     <ImageView
         android:id="@+id/imageViewplanetarium"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_below="@+id/formlogo"
-        android:layout_toEndOf="@+id/textView3"
+        android:layout_above="@+id/imageViewmuseumkayu"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
         android:scaleType="fitCenter"
         android:src="@drawable/lo" />
 
@@ -98,27 +110,16 @@
         android:id="@+id/imageViewpulaukumala"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/formlogo"
-        android:layout_marginStart="25dp"
+        android:layout_alignStart="@+id/imageViewladaya"
+        android:layout_alignTop="@+id/imageViewwaduk"
         android:scaleType="fitCenter"
         android:src="@drawable/k" />
-
-    <ImageView
-        android:id="@+id/imageViewmuseumkayu"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_alignEnd="@+id/imageViewmulawarman"
-        android:layout_below="@+id/imageViewmulawarman"
-        android:layout_marginTop="32dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/jktpt" />
 
     <ImageView
         android:id="@+id/imageViewwaduk"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignStart="@+id/imageViewpulaukumala"
+        android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/imageViewmuseumkayu"
         android:scaleType="fitCenter"
         android:src="@drawable/jkt" />
@@ -127,11 +128,10 @@
         android:id="@+id/imageViewladaya"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignTop="@+id/imageViewwaduk"
-        android:layout_toEndOf="@+id/textView3"
+        android:layout_alignStart="@+id/btn_sejarah"
+        android:layout_below="@+id/formlogo"
         android:scaleType="fitCenter"
         android:src="@drawable/jktp" />
-
 
 
 </RelativeLayout>

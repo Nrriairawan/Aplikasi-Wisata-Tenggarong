@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="435dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
         android:fontFamily="serif"
         android:scaleType="center"
         android:text="Sejarah Singkat Kukar "
@@ -52,7 +52,7 @@ Letak geografis Kerajaan Kutai yang berada menjorok ke daerah pedalaman, menyeba
 "
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="30sp" />
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btn_wisata"

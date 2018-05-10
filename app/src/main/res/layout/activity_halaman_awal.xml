@@ -12,15 +12,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
-        android:src="@drawable/m" />
+        android:src="@drawable/nu" />
 
     <Button
         android:id="@+id/btn_join"
         style="@style/Base.AlertDialog.AppCompat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="83dp"
         android:fontFamily="serif"
         android:text="Menu"
         android:textColor="@android:color/holo_green_dark"
