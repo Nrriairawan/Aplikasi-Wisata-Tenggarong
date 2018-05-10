@@ -17,7 +17,7 @@ public class museumkayu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kumala);
+        setContentView(R.layout.activity_museumkayu);
         ButterKnife.bind(this);
     }
     @OnClick(R.id.btn_wisata)

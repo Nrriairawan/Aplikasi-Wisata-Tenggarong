@@ -17,7 +17,7 @@ public class planetarium extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kumala);
+        setContentView(R.layout.activity_planetarium);
         ButterKnife.bind(this);
     }
     @OnClick(R.id.btn_wisata)
