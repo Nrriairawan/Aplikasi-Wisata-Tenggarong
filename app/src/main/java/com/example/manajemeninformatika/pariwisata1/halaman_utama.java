@@ -22,7 +22,7 @@ public class halaman_utama extends AppCompatActivity {
     }
 
     @OnClick(R.id.btn_wisata)
-    public void buttonjoin(){
+    public void btn_wisata(){
         Intent intent = new Intent(halaman_utama.this, kategori.class);
         startActivity(intent);
     }
