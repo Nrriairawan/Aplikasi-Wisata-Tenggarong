@@ -17,9 +17,6 @@ public class kategori extends AppCompatActivity {
     @BindView(R.id.btn_sejarah) EditText btn_sejarah;
     @BindView(R.id.btn_peta) EditText btn_peta;
     @BindView(R.id.btn_wisata) EditText btn_wisata;
-    @BindView(R.id.btn_sejarah) Button btn_sejarah;
-    @BindView(R.id.btn_wisata) Button btn_wisata;
-    @BindView(R.id.btn_peta) Button btn_peta;
     @BindView(R.id.imageViewmulawarman) ImageView imageViewmulawarman;
     @BindView(R.id.imageViewplanetarium) ImageView imageViewplanetarium;
     @BindView(R.id.imageViewpulaukumala) ImageView imageViewpulaukumala;
