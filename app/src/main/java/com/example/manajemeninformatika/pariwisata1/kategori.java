@@ -17,12 +17,13 @@ public class kategori extends AppCompatActivity {
     @BindView(R.id.btn_sejarah) Button btn_sejarah;
     @BindView(R.id.btn_peta) Button btn_peta;
     @BindView(R.id.btn_wisata) Button btn_wisata;
-    @BindView(R.id.imageViewmulawarman) ImageView imageViewmulawarman;
-    @BindView(R.id.imageViewplanetarium) ImageView imageViewplanetarium;
-    @BindView(R.id.imageViewpulaukumala) ImageView imageViewpulaukumala;
-    @BindView(R.id.imageViewmuseumkayu) ImageView imageViewmuseumkayu;
-    @BindView(R.id.imageViewwaduk) ImageView imageViewwaduk;
-    @BindView(R.id.imageViewladaya) ImageView imageViewladaya;
+    @BindView(R.id.btn_mulawarman) Button btn_mulawarman;
+    @BindView(R.id.btn_planetarium) Button btn_planetarium;
+    @BindView(R.id.btn_ladaya) Button btn_ladaya;
+    @BindView(R.id.btn_kayu) Button btn_kayu;
+    @BindView(R.id.btn_waduk) Button btn_waduk;
+    @BindView(R.id.btn_kumala) Button btn_kumala;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,39 +32,46 @@ public class kategori extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick(R.id.imageViewmulawarman)
-    public void ImageViewmulawarman() {
+
+    @OnClick(R.id.btn_sejarah)
+    public void btn_sejarah(){
+        Intent intent = new Intent(kategori.this, halaman_utama.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.btn_mulawarman)
+    public void btn_mulawarman(){
         Intent intent = new Intent(kategori.this, mulawarman.class);
         startActivity(intent);
     }
 
-    @OnClick(R.id.imageViewplanetarium)
-    public void ImageViewplanetarium() {
+    @OnClick(R.id.btn_planetarium)
+    public void btn_planetarium(){
         Intent intent = new Intent(kategori.this, planetarium.class);
         startActivity(intent);
     }
 
-    @OnClick(R.id.imageViewpulaukumala)
-    public void ImageViewpulaukumala() {
-        Intent intent = new Intent(kategori.this, kumala.class);
+    @OnClick(R.id.btn_ladaya)
+    public void btn_ladaya(){
+        Intent intent = new Intent(kategori.this, ladayah.class);
         startActivity(intent);
     }
 
-    @OnClick(R.id.imageViewmuseumkayu)
-    public void ImageViewmuseumkayu() {
+    @OnClick(R.id.btn_kayu)
+    public void btn_kayu(){
         Intent intent = new Intent(kategori.this, museumkayu.class);
         startActivity(intent);
     }
 
-    @OnClick(R.id.imageViewwaduk)
-    public void ImageViewwaduk() {
+    @OnClick(R.id.btn_waduk)
+    public void btn_waduk(){
         Intent intent = new Intent(kategori.this, waduk.class);
         startActivity(intent);
     }
 
-    @OnClick(R.id.imageViewladaya)
-    public void ImageViewladaya() {
-        Intent intent = new Intent(kategori.this, ladayah.class);
+    @OnClick(R.id.btn_kumala)
+    public void btn_kumala(){
+        Intent intent = new Intent(kategori.this, kumala.class);
         startActivity(intent);
     }
 }

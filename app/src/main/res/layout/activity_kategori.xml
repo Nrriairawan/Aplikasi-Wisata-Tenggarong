@@ -110,8 +110,8 @@
         android:id="@+id/imageViewpulaukumala"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignStart="@+id/imageViewladaya"
         android:layout_alignTop="@+id/imageViewwaduk"
+        android:layout_toEndOf="@+id/btn_planetarium"
         android:scaleType="fitCenter"
         android:src="@drawable/k" />
 
@@ -132,6 +132,62 @@
         android:layout_below="@+id/formlogo"
         android:scaleType="fitCenter"
         android:src="@drawable/jktp" />
+
+    <Button
+        android:id="@+id/btn_mulawarman"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/imageViewwaduk"
+        android:layout_alignStart="@+id/imageViewplanetarium"
+        android:text="Museum"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/btn_planetarium"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/imageViewwaduk"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginEnd="18dp"
+        android:text="Planetarium"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/btn_ladaya"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/imageViewpulaukumala"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:text="Ladaya"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/btn_kayu"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/btn_mulawarman"
+        android:layout_below="@+id/imageViewmuseumkayu"
+        android:text="Museum Kayu"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/btn_waduk"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/btn_planetarium"
+        android:layout_below="@+id/imageViewwaduk"
+        android:text="Waduk Panji"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/btn_kumala"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/btn_ladaya"
+        android:layout_below="@+id/imageViewpulaukumala"
+        android:text="Pulau Kumala"
+        android:textSize="8sp" />
 
 
 </RelativeLayout>

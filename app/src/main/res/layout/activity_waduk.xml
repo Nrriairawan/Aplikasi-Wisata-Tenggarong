@@ -70,9 +70,9 @@
         android:layout_marginTop="139dp"
         android:fontFamily="sans-serif"
         android:text="Waduk Panji Sukarame adalah waduk yang juga dijadikan tempat rekreasi yang terletak di Kelurahan Panji Sukarame, Tenggarong, Kutai Kartanegara dan merupakan taman rekreasi yang sangat bagus untuk dinikmati dengan adanya pemandangan alam dan air waduk yang tenang."
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="15sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView

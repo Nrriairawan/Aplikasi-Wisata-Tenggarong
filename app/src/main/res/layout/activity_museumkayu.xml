@@ -94,13 +94,13 @@
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_below="@+id/imageView26"
-        android:text="Museum Kayu Tuah Himba terletak tidak jauh dari kawasan Waduk Panji Suka Rame yaitu berjarak 600 meter dari lokasi waduk. Dibangun dengan bangunan kayu panggung yang berukuran 20x20 M2. Bangunan ini dikelilingi oleh pohon-pohon tinggi menyerupai hutan lindung. Pengunjung dapat menyaksikan beraneka ragam koleksi yang berkaitan dengan kehutanan, khusus hutan Kalimantan yang kaya akan berbagai jenis pohon. Dengan berkunjung ke museum kayu tuah himba, wisatawan dapat menambah wawasan atau pengetahuan dengan melihat-lihat beraneka macam koleksi yang berkaitan dengan kehutanan. Beranekaragam koleksi daun-daun kering (herbarium), koleksi biji-bijian, koleksi potongan log atau batang pohon yang tumbuh di pulau Kalimantan, alat-alat pengolahan kayu, alat-alat dapur tradisional hingga perabotan rumah tangga yang terbuat dari hasil hutan Kalimantan timur.
-Selain menampilkan hasil-hasil hutan, daya tarik utama yang disajikan Museum kayu tuah himba yang menyedot perhatian pelancong umumnya adalah koleksi dua ekor buaya yang telah diawetkan. Kedua ekor buaya muara (crocodelus porosus) ini pernah menggegerkan masyarakat Kalimantan pada tahaun 1996 karena telah memangsa dua manusia di dua tempat terpisah yakni Sangata dan muara Badak dalam selisih waktu hanya satu bulan.  Riwayat kejadian ini terpampang disalah satu bagian dinding museum.
-"
+        android:text="Museum Kayu Tuah Himba terletak tidak jauh dari kawasan Waduk Panji Suka Rame yaitu berjarak 600 meter dari lokasi waduk. Dibangun dengan bangunan kayu panggung yang berukuran 20x20 M2. Bangunan ini dikelilingi oleh pohon-pohon tinggi menyerupai hutan lindung. Pengunjung dapat menyaksikan beraneka ragam koleksi yang berkaitan dengan kehutanan, khusus hutan Kalimantan yang kaya akan berbagai jenis pohon."
+        android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
 
