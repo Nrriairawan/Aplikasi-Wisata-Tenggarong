@@ -12,6 +12,7 @@ import butterknife.OnClick;
 public class halaman_utama extends AppCompatActivity {
 
     @BindView(R.id.btn_wisata) Button btn_wisata;
+    @BindView(R.id.btn_peta) Button btn_peta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,11 @@ public class halaman_utama extends AppCompatActivity {
     @OnClick(R.id.btn_wisata)
     public void btn_wisata(){
         Intent intent = new Intent(halaman_utama.this, kategori.class);
+        startActivity(intent);
+    }
+    @OnClick(R.id.btn_peta)
+    public void btn_peta(){
+        Intent intent = new Intent(halaman_utama.this, MapsActivity.class);
         startActivity(intent);
     }
 }

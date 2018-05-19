@@ -3,23 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context="com.example.manajemeninformatika.pariwisata1.kategori">
 
 
     <ImageView
-        android:id="@+id/formback"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/bec" />
-    <ImageView
         android:id="@+id/formlogo"
         android:layout_width="match_parent"
         android:layout_height="140dp"
-        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/imageViewpulaukumala"
         android:layout_alignParentTop="true"
         android:scaleType="fitStart"
         android:src="@drawable/warna" />
@@ -28,9 +20,8 @@
         android:id="@+id/btn_wisata"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/btn_peta"
-        android:layout_alignBottom="@+id/btn_peta"
-        android:layout_toEndOf="@+id/btn_peta"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btn_mulawarman"
         android:text="WISATA"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="20sp" />
@@ -39,13 +30,13 @@
         android:id="@+id/btn_peta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_wisata"
+        android:layout_alignBottom="@+id/btn_wisata"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="14dp"
         android:fontFamily="serif"
         android:text="PETA"
         android:textColor="@android:color/holo_green_dark"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btn_sejarah"
@@ -53,11 +44,21 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/btn_wisata"
         android:layout_alignBottom="@+id/btn_wisata"
-        android:layout_alignParentEnd="true"
+        android:layout_alignEnd="@+id/imageViewpulaukumala"
         android:fontFamily="serif"
         android:text="SEJARAH "
         android:textColor="@android:color/holo_green_dark"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:id="@+id/formback"
+        android:layout_width="match_parent"
+        android:layout_height="3000dp"
+        android:layout_alignEnd="@+id/btn_sejarah"
+        android:layout_below="@+id/btn_wisata"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bec" />
 
     <TextView
         android:id="@+id/textView3"
@@ -78,9 +79,8 @@
         android:id="@+id/imageViewmulawarman"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignEnd="@+id/btn_wisata"
         android:layout_below="@+id/formlogo"
-        android:layout_marginEnd="47dp"
+        android:layout_toStartOf="@+id/btn_planetarium"
         android:scaleType="fitCenter"
         android:src="@drawable/j" />
 
@@ -99,9 +99,9 @@
         android:id="@+id/imageViewplanetarium"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_above="@+id/imageViewmuseumkayu"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="20dp"
+        android:layout_below="@+id/formlogo"
+        android:layout_marginStart="21dp"
         android:scaleType="fitCenter"
         android:src="@drawable/lo" />
 
@@ -128,8 +128,8 @@
         android:id="@+id/imageViewladaya"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:layout_alignStart="@+id/btn_sejarah"
-        android:layout_below="@+id/formlogo"
+        android:layout_below="@+id/textView3"
+        android:layout_toEndOf="@+id/btn_planetarium"
         android:scaleType="fitCenter"
         android:src="@drawable/jktp" />
 
@@ -184,10 +184,9 @@
         android:id="@+id/btn_kumala"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        android:layout_alignEnd="@+id/btn_ladaya"
+        android:layout_alignStart="@+id/imageViewladaya"
         android:layout_below="@+id/imageViewpulaukumala"
         android:text="Pulau Kumala"
         android:textSize="8sp" />
-
 
 </RelativeLayout>

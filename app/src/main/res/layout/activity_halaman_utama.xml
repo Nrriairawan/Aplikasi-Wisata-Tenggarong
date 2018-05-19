@@ -7,6 +7,7 @@
 
     tools:context="com.example.manajemeninformatika.pariwisata1.halaman_utama">
 
+
     <ImageView
         android:id="@+id/formback"
         android:layout_width="match_parent"
@@ -60,24 +61,29 @@
         android:textColor="@android:color/holo_green_dark"
         android:textSize="20sp" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_wisata"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical">
+
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Sejarah Kota Tenggarong Kerajaan kutai adalah kerajaan tertua di Indonesia. Kerajaan ini terletak ditepi sungai Mahakam di Muarakaman, Kalimantan Timur, dekat kota Tenggarong. Diperkirakan Kerajaan Kutai berdiri pada abad 4 M prasasti tersebut didirikan oleh Raja Mulawarman. Bukti sejarah tentang kerajaan Kutai adalah ditemukannya tujuh prasasti yang berbentuk yupa (tiang batu) tulisan yupa itu menggunakan huruf pallawa dan bahasa sansekerta. Adapun isi prasati tersebut menyatakan bahwa raja pertama Kerajaan Kutai bernama Kudungga. Ia mempunyai seorang putra bernama Asawarman yang disebut sebagai wamsakerta (pembentuk keluarga). Setelah meninggal, Asawarman digantikan oleh Mulawarman. Penggunaan nama Asawarman dan nama-nama raja pada generasi berikutnya menunjukkan telah masuknya pengaruh ajaran Hindu dalam kerajaan Kutai dan hal tersebut membuktikan bahwa raja-raja Kutai adalah orang Indonesia asli yang telah memeluk agama Hindu. Letak geografis Kerajaan Kutai yang berada menjorok ke daerah pedalaman, menyebabkan Kutai menjadi tempat yang menarik sebagai persinggahan bagi para pedagang dari Cina dan India. Hal inilah yang menyebabkan pengaruh Hindu masuk ke Kutai, serta membuat kegiatan perdagangan menjadi bagian dari kehidupan masyarakat Kutai         "
                 android:textAlignment="center"
                 android:textColor="@android:color/background_dark"
                 android:textSize="24sp" />
-        </LinearLayout>
-    </ScrollView>
+        </ScrollView>
+
+    </LinearLayout>
 
 </RelativeLayout>
