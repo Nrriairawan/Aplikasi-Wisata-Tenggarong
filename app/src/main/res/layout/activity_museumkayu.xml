@@ -40,9 +40,9 @@
         android:id="@+id/imageView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/btn_wisata"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/imageViewmulawarman"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/textView4"
         app:srcCompat="@android:drawable/ic_dialog_map" />
 
     <ImageView
@@ -97,11 +97,10 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/imageView26"
-        android:text="Museum Kayu Tuah Himba terletak tidak jauh dari kawasan Waduk Panji Suka Rame yaitu berjarak 600 meter dari lokasi waduk. Dibangun dengan bangunan kayu panggung yang berukuran 20x20 M2. Bangunan ini dikelilingi oleh pohon-pohon tinggi menyerupai hutan lindung. Pengunjung dapat menyaksikan beraneka ragam koleksi yang berkaitan dengan kehutanan, khusus hutan Kalimantan yang kaya akan berbagai jenis pohon."
+        android:text="Terletak di kawasan Waduk Panji Sukarame, Tenggarong, Kalimantan Timur, Museum Kayu dibangun pada tahun 1990-an dengan menggunakan kayu sebagai bahan dasar. Berbentuk rumah panggung khas Kalimantan, museum ini memiliki nama lengkap Museum Kayu Tuah Himba. “Tuah himba” diambil dari semboyan Kota Tenggarong, “Tuah Himba Untung Langgong” yang berarti menjaga kekayaan hutan dan alam, maka manfaat yang diperoleh akan langgeng (lancar). Berjarak 3 kilometer dari pusat Kota Tenggarong, Museum Kayu menyimpan jenis-jenis kayu yang tumbuh subur di Pulau Borneo. Kayu-kayu yang menjadi koleksi di museum ini mencapai 220 jenis kayu perdagangan. Di antara kayu-kayu yang menjadi koleksi museum ini adalah kayu ulin yang hanya tumbuh di Pulau Kalimantan."
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="14sp"
-        android:textStyle="bold" />
+        android:textSize="14sp" />
 
 
 </RelativeLayout>

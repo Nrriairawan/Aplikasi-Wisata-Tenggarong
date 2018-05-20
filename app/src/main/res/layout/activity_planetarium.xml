@@ -77,11 +77,10 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView11"
         android:fontFamily="sans-serif"
-        android:text="Plenetarium Jagad raya Tenggarong adalah planetarium ke-3 di Indonesia setelah yang ada di Jakarta dan Surabaya. Yang istimewa adalah planetrarium ini memiliki teater Bintang dengan peralatan baru yang bernama ZKP-4 produksi Carl- Zeiss Jerman, dan merupakan planetarium yang pertama dan satu-satunya yang memiliki taater bintang 3 dimensi tanpa kacamata. Teater bintang yang terletak dilantai dua ini menggunakan layar yang terbuat dari plat alumunium berbentuk kubah dengan garis tengah 11 m. ruang pertunjukan berbentuk lingkaran dan pengunjung akan duduk pada kursi yang ditempatakan melingkar menghadap proyektor yang berada di tengah-tengahnya."
+        android:text="Planetarium Jagad Raya Tenggarong merupakan sebuah planetarium yang terletak di Jalan Diponegoro, Tenggarong, Kutai Kartanegara, Kalimantan Timur. Planetarium berkapasitas 92 tempat duduk ini dibangun pada tahun 2000 dan resmi dibuka pada tahun 2002. Planetarium Jagad Raya merupakan planetarium ketiga di Indonesia setelah Planetarium Jakarta dan Planetarium Surabaya, Jawa Timur. Planetarium Jagad Raya terletak di Jalan Pangeran Diponegoro, di sebelah kiri bangunan Museum Mulawarman. Planetarium ini dibangun pada tahun 2002 dan diresmikan pada tanggal 16 April 2003. Tempat ini merupakan sarana wisata pendidikan untuk menikmati keindahan alam semesta berupa bintang-bintang, planet dan objek-objek langit lainnya. Planetarium ini merupakan tempat Teater Bintang atau teater alam, karena dapat memperlihatkan isi alam semesta serta susunannya."
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="12sp"
-        android:textStyle="bold" />
+        android:textSize="13sp" />
 
     <TextView
         android:id="@+id/textView6"
