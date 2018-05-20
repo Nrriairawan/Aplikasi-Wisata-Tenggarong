@@ -28,7 +28,7 @@ public class halaman_utama extends AppCompatActivity {
     }
     @OnClick(R.id.btn_peta)
     public void btn_peta(){
-        Intent intent = new Intent(halaman_utama.this, MapsActivity.class);
+        Intent intent = new Intent(halaman_utama.this, MapsActivity2.class);
         startActivity(intent);
     }
 }

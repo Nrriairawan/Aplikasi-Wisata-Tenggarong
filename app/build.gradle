@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.manajemeninformatika.pariwisata1"
-        minSdkVersion 23
+        minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -20,7 +20,7 @@ android {
 
 dependencies {
 
-    implementation 'com.android.support:wear:26.1.0'
+    //implementation 'com.android.support:wear:26.1.0'
     implementation 'com.jakewharton:butterknife:8.8.1'
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
