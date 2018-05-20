@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
 
     tools:context="com.example.manajemeninformatika.pariwisata1.waduk">
+
     <ImageView
         android:id="@+id/formback"
         android:layout_width="match_parent"
@@ -39,8 +40,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/btn_wisata"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/imageViewmulawarman"
+        android:layout_marginEnd="21dp"
         app:srcCompat="@android:drawable/ic_dialog_map" />
 
     <ImageView
@@ -49,7 +50,6 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView18"
         android:layout_below="@+id/textView14"
-        android:layout_marginTop="11dp"
         app:srcCompat="@android:drawable/ic_menu_recent_history" />
 
     <ImageView
@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView21"
         android:layout_below="@+id/imageView21"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="15dp"
         app:srcCompat="@android:drawable/ic_menu_call" />
 
     <TextView
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/imageView18"
         android:layout_toEndOf="@+id/imageView18"
-        android:text="Jalan K.H. Ahmad Muksin, Timbau, Timbau, Tenggarong, Tenggarong, Kabupaten Kutai Kartanegara, Kalimantan Timur 75513"
+        android:text=" Jalan K.H. Ahmad Muksin, Tenggarong, Timbau, Tenggarong, Kabupaten Kutai Kartanegara, Kalimantan Timur 75511"
         android:textColor="@android:color/background_dark"
         android:textSize="12sp" />
 
@@ -75,10 +75,11 @@
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView22"
         android:layout_alignStart="@+id/textView14"
-        android:layout_alignTop="@+id/imageView21"
-        android:text="08.00–18.00"
-        android:textColor="@android:color/background_dark" />
+        android:text="06:00 – 18:00"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/textView16"
@@ -90,16 +91,15 @@
         android:textColor="@android:color/background_dark" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/textView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:text="Pulau kumala terletak ditengah sungai Mahakam yang merupakan daerah delta Mahakam yang memanjang disebelah barat Kota Tenggarong. Dengan luas 76 ha, pulau ini didesain menjadi taman wisata rekreasi yang ditata rapi dengan perpaduan arsitektur berteknologi modern dan budaya tradisional. Terdapat patung besar Lembuswana dibagian ujung pulau, yang menjadi icon pulau ini dan mudah terlihat dari pinggir Sungai Mahakam."
+        android:text="Pulau Kumala merupakan daerah delta di Sungai Mahakam yang memanjang di sebelah Barat Kota Tenggarong, Kabupaten Kutai Kartanegara. Dimulai pada tahun 2000, Pulau Kumala dibangun menjadi kawasan wisata. Namun sejak Bupati Syaukani Hasan Rais, yang membangun pulau ini, terjegal kasus korupsi pada tahun 2006, pembangunan Pulau Kumala menjadi mangkrak.Taman Wisata Pulau Kumala berjarak sekitar 27 km dari Kota Samarinda yang dapat ditempuh melalui Jembatan Kutai Kartanegara dalam waktu kurang lebih 30 menit. Sedangkan dari Kota Balikpapan yang memiliki fasilitas Bandar Udara Sultan Aji Muhammad Sulaiman dan Pelabuhan Semayang yang merupakan akses transportasi udara dan laut di Kalimantan Timur, Berjarak sekitar 130 km yang dapat ditempuh kurang lebih 3 jam lewat jalan darat. Selain itu Taman Wisata Pulau Kumala dapat juga dicapai dengan transportasi air melewati Sungai Mahakam."
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="14sp"
-        android:textStyle="bold" />
+        android:textSize="12sp" />
 
 
 </RelativeLayout>

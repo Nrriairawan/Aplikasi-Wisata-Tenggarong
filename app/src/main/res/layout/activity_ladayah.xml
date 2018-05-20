@@ -39,8 +39,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/btn_wisata"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="14dp"
+        android:layout_below="@+id/imageViewmulawarman"
+        android:layout_marginEnd="11dp"
         app:srcCompat="@android:drawable/ic_dialog_map" />
 
     <ImageView
