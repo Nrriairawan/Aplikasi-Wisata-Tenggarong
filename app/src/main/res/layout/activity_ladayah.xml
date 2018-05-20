@@ -94,11 +94,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView23"
-        android:text="Ladaya alias ladang budaya adalah salah satu destinasi wisata alam yang terletak di Tenggarong Kabupaten Kutai Kertanegara. Objek wisata ini dilengkapi dengan berbagai wahana menarik, seperti mini zoo; outbond; paint ball dan juga rumah odah rehat untuk menginap"
+        android:text="Ladaya alias ladang budaya adalah salah satu destinasi wisata alam yang terletak di Tenggarong Kabupaten Kutai Kertanegara. Objek wisata ini dilengkapi dengan berbagai wahana menarik, seperti mini zoo; outbond; paint ball dan juga rumah odah rehat untuk menginap. Dengan nama asli Ladang Budaya Lanjong, tempat ini memang dikelola oleh sebuah badan hukum yang melekat padanya yaitu Yayasan Lanjong. Pengunjungnya tidak hanya dari warga logal, namun banyak pula dari luar kota seperti; bontang; balikpapan; sangata; termasuk dari samarinda. Hal ini tidak hanya dikarenakan jaraknya yang relatif dekat dengan kota/kabupaten sekitra, tapi wahana-wahana yang tersedia di ladaya inilah yang menjadi daya tarik terbesar sehingga banyak yang ingin secara langsung merasakan berlibur disini."
         android:textAlignment="center"
         android:textColor="@android:color/background_dark"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="13sp" />
 
 
 </RelativeLayout>
