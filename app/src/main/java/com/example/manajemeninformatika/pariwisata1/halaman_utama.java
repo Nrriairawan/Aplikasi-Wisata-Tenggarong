@@ -31,4 +31,5 @@ public class halaman_utama extends AppCompatActivity {
         Intent intent = new Intent(halaman_utama.this, MapsActivity2.class);
         startActivity(intent);
     }
+
 }

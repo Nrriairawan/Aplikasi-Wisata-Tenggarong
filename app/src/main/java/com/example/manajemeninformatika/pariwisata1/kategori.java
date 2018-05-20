@@ -74,4 +74,9 @@ public class kategori extends AppCompatActivity {
         Intent intent = new Intent(kategori.this, kumala.class);
         startActivity(intent);
     }
+    @OnClick(R.id.btn_peta)
+    public void btn_peta(){
+        Intent intent = new Intent(kategori.this,MapsActivity2.class);
+        startActivity(intent);
+    }
 }
